@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 400px;
+
+  .container {
+    height: 100%;
+
+    .slider {
+      width: 100%;
+      height: 100%;
+      background: beige;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .arrows {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        color: #fff;
+        margin-top: -17%;
+
+        //   top: -50%;
+        .right {
+          background: rgb(162, 36, 36);
+          padding: 12px;
+        }
+        .left {
+          background: rgb(162, 36, 36);
+          padding: 12px;
+        }
+      }
+    }
+  }
+  .dotss {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    .dot {
+      width: 20px;
+      height: 20px;
+      background: rgb(80, 80, 80);
+      border-radius: 50%;
+    }
+    .active {
+      background: rgb(225, 217, 65);
+    }
+  }
+}
